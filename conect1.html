@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Contact Us</title>
+    <style>
+        .cntainer{
+            min-height: 100vh;
+            background: #08071d;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('/pngtree-blue-abstract-background-business-image_564246.jpg') no-repeat center center/cover;
+
+
+
+        }
+        .container form{
+            width: 670px;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+            border-radius: 15px;
+            background: rgba(255, 255, 255, 0.1);
+
+        }
+    </style>
+</head>
+<body>
+    <div class="Container">
+        <form>
+            <h1>Contect Us Form</h1>
+            <input type="text"name="Frist Name" id="firstName" placeholder="First Name" required>
+            <input type="text" name="Last Name" id="lastName" placeholder="Last Name" required>
+            <input type="text" name="Email" id="email" placeholder="Email"required>
+            <input type="text" name="Mobile"  id="mobile" placeholder="Mobile" required>
+            <h4>Type Your Message Here....</h4>
+            <textarea required></textarea>
+            <input type="submit" value="Send" id="btton">
+        </form>
+
+    </div>
+    
+</body>
+</html>
